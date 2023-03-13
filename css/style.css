@@ -29,6 +29,12 @@
     position: fixed;
 }
 
+.width30 {
+    width: 30%;
+}
+.width70 {
+    width: 70%;
+}
 .width100 {
     width: 100%;
 }
@@ -53,6 +59,12 @@
     background-color: #B4D0E7;
 }
 
+.centerContent {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
 /* header */
 
 header {
@@ -63,4 +75,41 @@ header {
 
 .centratesto {
     line-height: 65pc;
+}
+
+header button {
+    background-color: #0061FF;
+    padding: 0.5em 1em;
+    border: none;
+    color: white;
+}
+
+
+/* main */
+main {
+    margin-top: 65px;
+}
+
+#jumbo {
+    width: 600px;
+    display: block;
+}
+
+h1 {
+    padding-top: 1em;
+    font-size: 50px ;
+    margin-bottom: 1em ;
+}
+
+main button {
+    margin:1em 0;
+    background-color: #0061FF;
+    padding: 0.5em 1em;
+    border: none;
+    color: white;
+}
+
+.flex .width30 i {
+    font-size: 40px ;
+    margin-top: 60px;
 }
