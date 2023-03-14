@@ -33,6 +33,9 @@ img {
     position: fixed;
 }
 
+.width15{
+    width: 15%;
+}
 .width30 {
     width: 30%;
 }
@@ -41,6 +44,9 @@ img {
 }
 .heigh30vw {
     height: 33vw;
+}
+.heigh66vw{
+    max-height: 66vw;
 }
 
 .width40vw {
@@ -89,6 +95,9 @@ img {
 }
 .marginBottom2Rem {
     margin-bottom: 2rem;
+}
+.marginBottom3Rem {
+    margin-bottom: 3rem;
 }
 
 main .marginBottom100px {
@@ -142,6 +151,9 @@ main .marginBottom100px {
 .flexCenter{
     align-items: center;
     justify-content: center;
+}
+.colorWhite {
+    color: white;
 }
 
 /* header */
@@ -283,4 +295,8 @@ h4 {
 .backgroundColorGreen {
     background-color: #A2D39B;
     border: solid 4px #D1E9CD ;
+}
+
+.overflowHidden {
+    overflow-y: scroll;
 }
