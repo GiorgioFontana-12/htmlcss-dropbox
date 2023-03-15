@@ -7,8 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-img {
-    display: block;
+/* Button hover color #79ACFF */
+
+body{
+    scroll-padding-top: 65px;
+}
+
+i {
+    margin-right: 0.5rem;
 }
 
 .dimTest {
@@ -55,7 +61,7 @@ img {
 .width50 {
     width: 50%;
 }
-.heigth50 {
+.height50 {
     height: 50%;
 }
 
@@ -294,9 +300,36 @@ h4 {
 
 .backgroundColorGreen {
     background-color: #A2D39B;
-    border: solid 4px #D1E9CD ;
+    border: solid 20px #D1E9CD ;
 }
 
 .overflowHidden {
     overflow-y: scroll;
+}
+
+.height288px {
+    height: 288px;
+}
+
+#grayButton {
+    border: none;
+    background-color: white;
+    color: black;
+
+}
+
+.backgroundColorLightblue{
+    background-color: #B4D0E7 ;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible:hover .invisible {
+    display: block;
+}
+
+.visible:hover .rotate {
+    rotate: 180deg;
 }
