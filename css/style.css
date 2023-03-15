@@ -170,10 +170,6 @@ header {
     background-color: white;
 }
 
-.centratesto {
-   
-}
-
 header button {
     background-color: #0061FF;
     padding: 0.5em 1em;
@@ -190,14 +186,6 @@ header button {
 
 .marginBottom100px{
     margin-bottom: 100px;
-}
-
-
-
-
-main {
-    
-
 }
 
 main a i {
@@ -332,4 +320,32 @@ h4 {
 
 .visible:hover .rotate {
     rotate: 180deg;
+}
+
+
+/* Footer */
+
+.backgroundColorBlack {
+    background-color: black;
+}
+
+.height460 {
+    height: 460px;
+}
+
+.lineColorWhite {
+    border: 1px white;
+}
+
+.paddingTop80px {
+    padding-top: 80px;
+}
+
+.opacity05 {
+    opacity: 0.5;
+}
+
+
+.paddingLeft8px {
+    padding-left: 28px;
 }
