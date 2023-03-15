@@ -10,7 +10,7 @@
 /* Button hover color #79ACFF */
 
 #logo {
-    margin-bottom: 2px;
+    margin-bottom: 6px;
 }
 
 
@@ -119,9 +119,7 @@ main .marginBottom100px {
     margin: 0 auto;
 
 }
- .mainBox {
-    max-width: 800px;
- }
+
 
  .textAlignCenter{
      text-align: center;
@@ -191,6 +189,13 @@ header button:hover {
     top: 80px;
 }
 
+#zoom {
+    transition-duration: 0.3s;
+}
+
+#zoom:hover {
+    scale: 1.2;
+}
 .marginBottom100px{
     margin-bottom: 100px;
 }
@@ -199,9 +204,24 @@ main a i {
     color: black;
 }
 
+main div #bigTitle{
+    font-size:20px ;
+}
+
 #jumbo {
     width: 100%;
     display: block; 
+}
+
+#buttonPartner{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    margin-top: 25px;
+}
+
+#buttonPartner:hover {
+    background-color: #eee;
 }
 
 h1 {
@@ -228,8 +248,14 @@ main button:hover {
 }
 
 .mainBox {
-    width: 800px;
+    max-width: 800px;
     margin: 2rem auto;
+}
+main div #promoter{
+    font-size: 30px;
+    color: #5E0428;
+    margin-right: 100px;
+    margin-top: 34px;
 }
 
 #noMarginTop {
