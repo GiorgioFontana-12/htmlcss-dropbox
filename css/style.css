@@ -9,6 +9,9 @@
 }
 /* Button hover color #79ACFF */
 
+#logo {
+    margin-bottom: 2px;
+}
 
 
 i {
@@ -173,6 +176,8 @@ header button {
     padding: 0.5em 1em;
     border: none;
     color: white;
+    transition-duration: 0.2s;
+
 }
 
 header button:hover {
@@ -210,6 +215,7 @@ main button {
     padding: 0.5em 1em;
     border: none;
     color: white;
+    transition-duration: 0.2s;
 }
 
 main button:hover {
@@ -225,6 +231,11 @@ main button:hover {
     width: 800px;
     margin: 2rem auto;
 }
+
+#noMarginTop {
+    margin-top: 0;
+}
+
 
 h2 {
     font-size: 26px;
@@ -288,6 +299,8 @@ h4 {
     text-decoration: underline;
 }
 
+
+
 .flexDirectionColumn p {
     font-size: 14px;
 }
@@ -334,6 +347,8 @@ h4 {
     border: none;
     background-color: white;
     color: black;
+    transition-duration: 0.2s;
+
 }
 #grayButton:hover {
     background-color: #DADADC ;
@@ -347,14 +362,44 @@ h4 {
 
 .invisible {
     display: none;
+
 }
 
 .visible:hover .invisible {
     display: block;
+    
+    animation-name: visible;
+    animation: linear 0.5s;
 }
 
+@keyframes visible {
+    0%{
+        
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+/* .visible:hover .invisible {
+    display: block;
+    opacity:  1;
+    transition-duration: 0.3s;
+
+} */
+
+.rotate {
+    transition-duration: 0.3s;
+}
 .visible:hover .rotate {
-    rotate: 180deg;
+    transform: rotate(180deg);
+
+
 }
 
 main .width30 p {
@@ -389,6 +434,17 @@ main .width30 p {
 
 .opacity05 {
     opacity: 0.5;
+}
+
+.colorWhite .fromBlackToWhite {
+    display: block;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.visible:hover .fromBlackToWhite {
+    color: white;
+    
 }
 
 
